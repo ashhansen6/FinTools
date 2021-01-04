@@ -1,11 +1,11 @@
 Package: FinTools
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Tools for Portfolio Analysis
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Author: Ashton Hansen
+Maintainer: Ashton Hansen <ashhansen6@outlook.com>
+Description: A package including the functions that I've used to summarize and visualize positions in a portfolio.
+License: Unlicensed
 Encoding: UTF-8
 LazyData: true
+Imports: tidyverse, lubridate, quantmod
