@@ -71,10 +71,3 @@ hist.return <- function(symbol, start, end, title, by.change = FALSE, strata = "
     return(stat_list[[strata]])
   }
 }
-
-# Test it out
-hist.return(stock_a, "2020-01-01", "2020-04-01", "Jan-Mar")
-hist.return(stock_a, "2020-01-01", "2020-04-01", "Jan-Mar", by.change = TRUE)
-hist.return(stock_a, "2020-01-01", "2020-04-01", "Jan-Mar", by.change = TRUE, strata = "both")
-hist.return(stock_a, "2020-01-01", "2020-04-01", "Jan-Mar", by.change = TRUE, strata = "positive")
-hist.return(stock_a, "2020-01-01", "2020-04-01", "Jan-Mar", by.change = TRUE, strata = "negative")
