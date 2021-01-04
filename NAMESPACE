@@ -1,2 +1,2 @@
 exportPattern("^[[:alpha:]]+")
-import(tidyverse, lubridata, quantmod)
+import(tidyverse, lubridate, quantmod)
